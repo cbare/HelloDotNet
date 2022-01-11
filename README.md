@@ -17,6 +17,14 @@ dotnet run --project CLI/.
 dotnet test
 ```
 
+Or to see console output do this:
+
+```sh
+dotnet test -l "console;verbosity=detailed"
+```
+
+...see CharlieDigital's comment at the bottom of this issue: [Console.WriteLine calls during dotnet test are not emitted to the console on Windows][7]
+
 
 ## Sources of information
 
@@ -34,3 +42,4 @@ dotnet test
 [4]: https://xunit.net/docs/getting-started/netfx/cmdline
 [5]: https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices
 [6]: https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet
+[7]: https://github.com/Microsoft/vstest/issues/799

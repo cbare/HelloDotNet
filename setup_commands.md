@@ -25,3 +25,11 @@ cd Hello
 dotnet add package Microsoft.Extensions.Logging
 cd ..
 ```
+
+```sh
+cd Tests/Hello.Tests
+dotnet add package Microsoft.Extensions.Logging
+dotnet add package Microsoft.Extensions.Logging.Console
+dotnet add reference ../../Hello/.
+cd ../..
+```

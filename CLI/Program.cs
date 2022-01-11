@@ -4,7 +4,7 @@ using Hello;
 const String VERSION = "0.0.1";
 
 
-using var loggerFactory = LoggerFactory.Create(builder =>
+var loggerFactory = LoggerFactory.Create(builder =>
 {
     builder
         .AddFilter("Microsoft", LogLevel.Warning)
