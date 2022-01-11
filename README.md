@@ -31,6 +31,8 @@ dotnet test -l "console;verbosity=detailed"
 - Microsoft's [C# documentation][1]
 - [dotnet command][6] docs
 - [Unit testing best practices with .NET][5]
+- [Moq library docs][8]
+- [Unit Testing with ILogger][9]
 - [David Fowler][2] has collected some good information
 - David Fowler [Dot Net project layout][3]
 - [Getting Started with xUnit.net][4]
@@ -43,3 +45,5 @@ dotnet test -l "console;verbosity=detailed"
 [5]: https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices
 [6]: https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet
 [7]: https://github.com/Microsoft/vstest/issues/799
+[8]: https://github.com/moq/moq4
+[9]: https://github.com/dotnet-labs/UnitTestingWithILogger
