@@ -19,7 +19,7 @@ logger.LogInformation("Begin HelloDotNet!");
 
 Console.WriteLine("HelloDotNet {0}", VERSION);
 
-var nothingUsefulDoer = new NothingUsefulDoer(3);
-Console.WriteLine(nothingUsefulDoer.DoNothingUseful("Hello, World!"));
+var nothingUsefulDoer = new NothingUsefulDoer(logger);
+Console.WriteLine(nothingUsefulDoer.DoNothingUseful("Hello, World!", 3));
 
 logger.LogInformation("Done HelloDotNet!");
