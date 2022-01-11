@@ -11,3 +11,10 @@ dotnet sln add CLI/.
 dotnet sln add Hello/.
 dotnet sln add Tests/Hello.Tests/.
 ```
+
+```sh
+cd CLI
+dotnet add package Microsoft.Extensions.Logging
+dotnet add package Microsoft.Extensions.Logging.Console
+dotnet add reference ../Hello/.
+```
