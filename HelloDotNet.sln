@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLI", "CLI\CLI.csproj", "{A2A9985C-AF06-4741-AD3B-61A676D2176A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello", "Hello\Hello.csproj", "{44406F31-AFEE-4145-A230-C22871717D17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0EC4EF72-C044-48CA-A123-7089EA6FCCFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello.Tests", "Tests\Hello.Tests\Hello.Tests.csproj", "{92382BA3-4BC1-4C33-BA28-70F75CF2EEBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2A9985C-AF06-4741-AD3B-61A676D2176A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2A9985C-AF06-4741-AD3B-61A676D2176A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2A9985C-AF06-4741-AD3B-61A676D2176A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2A9985C-AF06-4741-AD3B-61A676D2176A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44406F31-AFEE-4145-A230-C22871717D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44406F31-AFEE-4145-A230-C22871717D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44406F31-AFEE-4145-A230-C22871717D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44406F31-AFEE-4145-A230-C22871717D17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92382BA3-4BC1-4C33-BA28-70F75CF2EEBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92382BA3-4BC1-4C33-BA28-70F75CF2EEBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92382BA3-4BC1-4C33-BA28-70F75CF2EEBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92382BA3-4BC1-4C33-BA28-70F75CF2EEBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{92382BA3-4BC1-4C33-BA28-70F75CF2EEBC} = {0EC4EF72-C044-48CA-A123-7089EA6FCCFD}
+	EndGlobalSection
+EndGlobal
